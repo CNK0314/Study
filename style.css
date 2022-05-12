@@ -8,3 +8,9 @@
       border-collapse: collapse;
       /* text-align: center; */
   }
+  table {
+      width: 100%;
+  }
+  th {
+      height: 70px;
+  }

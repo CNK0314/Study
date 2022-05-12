@@ -20,3 +20,7 @@
   .table_style{
       color: red;
   }
+  div.table_style{
+      color: green;
+      background-color: blue;
+  }

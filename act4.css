@@ -1,0 +1,36 @@
+table,th,td {
+    border: 3px solid red;
+    border-spacing: 10px;
+}
+
+table {
+    width: 80%;
+    padding: 2px;
+}
+
+th,td {
+    color: dodgerblue;
+    text-align: left;
+    height: 70px;
+    padding: 20px;
+}
+
+th {
+    text-align: center;
+}
+
+td:nth-child(1) {
+    text-align: center;
+}
+
+tr:nth-child(2) {
+    height: 200px;
+}
+
+img {
+    width: 120%;
+    object-fit: contain;
+}
+h2 {
+    text-align: center;
+}

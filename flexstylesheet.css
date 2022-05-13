@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+}
+.inline-flex-container {
+    display: inline-flex;
+}
+.bg-blue{
+    background-color: skyblue;
+}
+.bg-red{
+    background-color:red;
+}

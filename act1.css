@@ -1,0 +1,40 @@
+div{
+    border: 2px solid black;
+}
+.header{
+    background-color: lightgray;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    height: auto;
+}
+.header>div {
+    background-color: darkgray;
+    margin: 10px;
+    padding: 10px;
+}
+.main{
+    display: flex;
+    flex-flow: row wrap;
+}
+.menu{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+    height: auto;
+}
+.menu>div{
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    background-color: gray;
+}
+.content{
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+}
+.content>div{
+    padding: 10px;
+    margin: 10px;
+}
